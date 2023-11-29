@@ -7,6 +7,9 @@
     --informativa:#0000ff;
 }
 
+span{
+    background-color: green;
+}
 .informativa{
     background-color: var(--informativa);
     color: antiquewhite;
