@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --informativa:#0000ff;
+}
+
+.informativa{
+    background-color: var(--informativa);
+    color: antiquewhite;
+    margin-top: 10px;
+    
+}
