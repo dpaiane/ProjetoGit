@@ -19,17 +19,18 @@ span{
 
 
 @keyframes rotateText {
-    0% {
+    100% {
       transform: rotate(0deg);
     }
-    100% {
-      transform: rotate(360deg);
+    50% {
+      transform: rotate(180deg);
     }
+  
   }
 
   .animated-text {
     font-size: 24px;
     font-family: 'Arial', sans-serif;
-    color: #3498db;
-    animation: rotateText 5s linear infinite; /* 5s para 5 segundos de duração, linear para uma transição suave, infinite para repetir a animação infinitamente */
+    color: #088ee8;
+    animation: rotateText 9s linear infinite;
   }
